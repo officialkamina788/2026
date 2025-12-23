@@ -26,7 +26,7 @@ db = client['VIKASH']
 users_collection = db['DARK']
 redeem_codes_collection = db['redeem_codes0']
 
-TELEGRAM_BOT_TOKEN = '7385947182:AAHKalWHD-w3V5SqjTXc2e45SjLz-171He0'
+TELEGRAM_BOT_TOKEN = '7732903993:AAEEZqeN3sW7mvbnlZje3NWuIEMczGMtjtA'
 ADMIN_USER_ID = 5344691638 
 
 async def start_asyncio_thread():
