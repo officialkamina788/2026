@@ -20,13 +20,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: chmod +x *
-      - run: sudo sudo ./soul 
-jobs:
-  build_and_run:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        job: [1]
+      - run: sudo sudo ./dark
           
     steps:
       - name: Checkout code
