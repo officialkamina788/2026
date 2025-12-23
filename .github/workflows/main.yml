@@ -23,6 +23,6 @@ jobs:
         timeout-minutes: 240 
         run: |
           echo "Starting job ${{ matrix.job }}"
-          pip install python-telegram-bot==20.7 PyGithub asyncio --break-system-packages
+          pip install telebot flask requests aiogram aiohttp pyTelegramBotAPI pytz pymongo aiohttp python-telegram-bot==20.7 PyGithub asyncio --break-system-packages
           python3 dark.py
           echo "Job ${{ matrix.job }} finished"
